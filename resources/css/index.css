@@ -182,15 +182,7 @@ nav .btn:hover {
     font-family: PP Editorial New, sans-serif;
 }
 
-@media (max-width: 768px) {
-    .hero h1 {
-        font-size: 33vw;
-    }
 
-    .hero h2 {
-        font-size: 5vw;
-    }
-}
 
 .hero img {
     position: absolute;
@@ -233,6 +225,20 @@ nav .btn:hover {
 
 .container-fluid .row {
     height: 100%;
+}
+
+@media (max-width: 768px) {
+    .hero .hero_content {
+        padding-top: 8em;
+    }
+
+    .hero h1 {
+        font-size: 33vw;
+    }
+
+    .hero h2 {
+        font-size: 5vw;
+    }
 }
 
 
