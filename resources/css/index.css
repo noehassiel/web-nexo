@@ -371,6 +371,12 @@ nav .btn:hover {
     font-size: 2rem;
 }
 
+@media (max-width: 768px) {
+    .venues .card {
+        padding: 4rem 1rem;
+    }
+}
+
 /*FOOTER*/
 footer {
     position: fixed;
