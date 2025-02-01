@@ -6,7 +6,7 @@
             Nexo
         </div>
 
-        <div class="btn">Registrate</div>
+        <div class="btn openForm">Registrate</div>
     </nav>
 
     <main>
@@ -28,9 +28,9 @@
                         </div>
 
                         <div class="d-flex justify-content-center align-items-center flex-column">
-                            <button class="button button--bestia">
+                            <div class="button button--bestia openForm">
                                 <div class="button__bg"></div><span>Registro</span>
-                            </button>
+                            </div>
 
                             <dotlottie-player
                                 src="https://lottie.host/50a0221f-8d4c-405e-be5b-221f961c3765/BeVQq4fHmV.lottie"

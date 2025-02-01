@@ -482,3 +482,49 @@ footer {
     padding: .7rem 2.4rem;
     mix-blend-mode: difference;
 }
+
+/*FORM*/
+.form {
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    min-width: 500px;
+    background: var(--tertiary);
+    z-index: 999;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    transition: all .5s ease-in-out;
+    padding: 2rem 1rem;
+    color: var(--text);
+    padding-bottom: 12rem;
+}
+
+.form.active {
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .form {
+        width: 100%;
+        min-width: 100%;
+    }
+}
+
+input::placeholder {
+    color: var(--bg) !important;
+}
+
+.form-control {
+    color: var(--text);
+    padding: .24rem .4rem;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+    font-family: PP Editorial New, sans-serif;
+}
+
+.form-control:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 .25rem rgba(43, 43, 43, 0.762);
+}

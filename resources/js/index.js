@@ -117,3 +117,18 @@ parallaxIns.forEach(p => {
         }
     });
 });
+
+
+const form = document.querySelector('.openForm');
+
+form.addEventListener('click', e => {
+    e.preventDefault();
+    document.querySelector('.form').classList.add('active');
+});
+
+const closeForm = document.querySelector('.closeForm');
+
+closeForm.addEventListener('click', e => {
+    e.preventDefault();
+    document.querySelector('.form').classList.remove('active');
+});
