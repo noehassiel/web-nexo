@@ -24,7 +24,7 @@
                                 <h1 class="title-1">Welcome</h1>
                                 <h1 class="title-2">to Nexo</h1>
                             </div>
-                            <h2 class="subtitle">In the Dawn of AI Revolution</h2>
+                            <h2 class="subtitle">Conectar a las personas con la verdad de Cristo</h2>
                         </div>
 
                         <div class="d-flex justify-content-center align-items-center flex-column">
@@ -43,7 +43,8 @@
         </section>
 
         <section class="feature">
-            <p class="reveal-type">The web isn't static anymore. It's dynamic, interactive, and constantly evolving.</p>
+            <p class="reveal-type">Un espacio seguro donde puedes fortalecer tu relación con Dios, encontrar respuestas, y
+                crecer espiritualmente.</p>
         </section>
 
         <section class="features-list">
@@ -51,23 +52,23 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="subtitle-circle">A</div>
-                        <h3 class="feature-title">Interactive</h3>
-                        <img src="{{ asset('img/nexo-1.jpg') }}" alt="Nexo" class="d-md-none d-block feature-img">
+                        <h3 class="feature-title">Comunidad</h3>
+                        <img src="{{ asset('img/nexo-6.jpg') }}" alt="Nexo" class="d-md-none d-block feature-img">
                     </div>
                     <div class="col-md-3">
                         <div class="subtitle-circle">B</div>
-                        <h3 class="feature-title">Dynamic</h3>
+                        <h3 class="feature-title">Conectar</h3>
                         <img src="{{ asset('img/nexo-3.jpg') }}" alt="Nexo" class="d-md-none d-block feature-img">
                     </div>
                     <div class="col-md-3">
                         <div class="subtitle-circle">C</div>
-                        <h3 class="feature-title">Evolving</h3>
-                        <img src="{{ asset('img/nexo-4.jpg') }}" alt="Nexo" class="d-md-none d-block feature-img">
+                        <h3 class="feature-title">Fe</h3>
+                        <img src="{{ asset('img/nexo-8.jpg') }}" alt="Nexo" class="d-md-none d-block feature-img">
                     </div>
                     <div class="col-md-3">
                         <div class="subtitle-circle">D</div>
-                        <h3 class="feature-title">AI</h3>
-                        <img src="{{ asset('img/nexo-8.jpg') }}" alt="Nexo" class="d-md-none d-block feature-img">
+                        <h3 class="feature-title">Transformar</h3>
+                        <img src="{{ asset('img/nexo-4.jpg') }}" alt="Nexo" class="d-md-none d-block feature-img">
                     </div>
                 </div>
             </div>
