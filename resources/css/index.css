@@ -372,6 +372,10 @@ nav .btn:hover {
 }
 
 @media (max-width: 768px) {
+    .venues .row {
+        gap: 40px;
+    }
+
     .venues .card {
         padding: 4rem 1rem;
     }
