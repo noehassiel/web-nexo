@@ -132,3 +132,22 @@ closeForm.addEventListener('click', e => {
     e.preventDefault();
     document.querySelector('.form').classList.remove('active');
 });
+
+
+const register = document.querySelector('#register');
+
+register.addEventListener('click', e => {
+    e.preventDefault();
+    document.querySelector('.form').classList.add('active');
+});
+
+
+Livewire.on('member-created', (event) => {
+
+    $('#completedModal').modal('show');
+
+    setTimeout(() => {
+        $('#completedModal').modal('hide');
+    }, 3000);
+
+});

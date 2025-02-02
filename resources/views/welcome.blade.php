@@ -28,7 +28,7 @@
                         </div>
 
                         <div class="d-flex justify-content-center align-items-center flex-column">
-                            <div class="button button--bestia openForm">
+                            <div class="button button--bestia" id="register">
                                 <div class="button__bg"></div><span>Registro</span>
                             </div>
 
@@ -112,4 +112,19 @@
     </main>
 
     <footer></footer>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="completedModal" tabindex="-1" aria-labelledby="completedModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <dotlottie-player src="https://lottie.host/3d56773d-4671-4ec9-94f9-d12df5ec6a74/KwVENUQgsr.lottie"
+                        background="transparent" speed="1" style="width: 300px; height: 300px" loop
+                        autoplay></dotlottie-player>
+                    <h3>Esooo! Te has registrado con éxito</h3>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection
