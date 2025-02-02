@@ -548,7 +548,7 @@ footer {
 /*FORM*/
 .form {
     position: fixed;
-    bottom: -100%;
+    bottom: -110%;
     left: 50%;
     transform: translateX(-50%);
     min-width: 600px;
