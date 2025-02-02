@@ -114,17 +114,32 @@
                         <div class="box">*</div>
                         <div class="box">¿Nos echámos un cafecito?</div>
                         <div class="box">Ufff Jalo</div>
-                        <div class="box">*</div>
+                        <div class="box" style="width: 40px !important;">*</div>
                         <div class="box">¿Listo para conectar?</div>
-                        <div class="box">*</div>
+                        <div class="box" style="width: 40px !important;">*</div>
                         <div class="box">¿Nos echámos un cafecito?</div>
                         <div class="box">Ufff Jalo</div>
-                        <div class="box">*</div>
+                        <div class="box" style="width: 40px !important;">*</div>
                         <div class="box">¿Listo para conectar?</div>
-                        <div class="box">*</div>
+                        <div class="box" style="width: 40px !important;">*</div>
                         <div class="box">¿Nos echámos un cafecito?</div>
                         <div class="box">Ufff Jalo</div>
-                        <div class="box">*</div>
+                        <div class="box" style="width: 40px !important;">*</div>
+                        <div class="box">¿Listo para conectar?</div>
+                        <div class="box" style="width: 40px !important;">*</div>
+                        <div class="box">¿Nos echámos un cafecito?</div>
+                        <div class="box">Ufff Jalo</div>
+                        <div class="box" style="width: 40px !important;">*</div>
+                        <div class="box">¿Listo para conectar?</div>
+                        <div class="box" style="width: 40px !important;">*</div>
+                        <div class="box">¿Nos echámos un cafecito?</div>
+                        <div class="box">Ufff Jalo</div>
+                        <div class="box" style="width: 40px !important;">*</div>
+                        <div class="box">¿Listo para conectar?</div>
+                        <div class="box" style="width: 40px !important;">*</div>
+                        <div class="box">¿Nos echámos un cafecito?</div>
+                        <div class="box">Ufff Jalo</div>
+                        <div class="box" style="width: 40px !important;">*</div>
                     </div>
                 </div>
             </div>

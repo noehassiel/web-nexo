@@ -205,7 +205,7 @@ nav .btn:hover {
 }
 
 .hero .container-fluid {
-    height: 100dvh;
+    height: 104vh;
     position: relative;
     z-index: 2;
     justify-content: center;
