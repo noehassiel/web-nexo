@@ -444,9 +444,9 @@ nav .btn:hover {
 
 /*FOOTER*/
 footer {
-    position: fixed;
-    height: 100vh;
-    background-color: var(--text);
+    height: 30vh;
+    background: var(--text);
+    color: var(--bg);
 }
 
 .button {

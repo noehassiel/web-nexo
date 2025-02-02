@@ -154,7 +154,7 @@ Livewire.on('member-created', (event) => {
 
 
 // Marquee component
-initMarquee(640, 27)
+initMarquee(620, 80)
 
 function initMarquee(boxWidth, time) {
     const boxElement = $('.box');

@@ -9,7 +9,7 @@
         <div class="btn openForm">Registrate</div>
     </nav>
 
-    <main>
+    <main class="main">
         <section class="hero" id="hero">
 
             <img src="{{ asset('img/nexo-7.jpg') }}" alt="Nexo" class="js-parallax-in">
@@ -131,9 +131,6 @@
         </section>
     </main>
 
-    <footer>
-
-    </footer>
 
 
     <!-- Modal -->
