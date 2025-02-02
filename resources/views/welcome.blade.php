@@ -75,7 +75,7 @@
         </section>
 
         <section class="venues">
-            <img src="{{ asset('img/nexo-8.jpg') }}" alt="Nexo" class="js-parallax-in">
+            <img src="{{ asset('img/nexo-4.jpg') }}" alt="Nexo" class="js-parallax-in">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6">
@@ -105,17 +105,40 @@
         </section>
 
         <section class="cta">
+            <img src="{{ asset('img/nexo-8.jpg') }}" alt="Nexo" class="js-parallax-in">
 
+            <div class="container-fluid">
+                <div class="wrapper ">
+                    <div class="boxes">
+                        <div class="box">¿Listo para conectar?</div>
+                        <div class="box">*</div>
+                        <div class="box">¿Nos echámos un cafecito?</div>
+                        <div class="box">Ufff Jalo</div>
+                        <div class="box">*</div>
+                        <div class="box">¿Listo para conectar?</div>
+                        <div class="box">*</div>
+                        <div class="box">¿Nos echámos un cafecito?</div>
+                        <div class="box">Ufff Jalo</div>
+                        <div class="box">*</div>
+                        <div class="box">¿Listo para conectar?</div>
+                        <div class="box">*</div>
+                        <div class="box">¿Nos echámos un cafecito?</div>
+                        <div class="box">Ufff Jalo</div>
+                        <div class="box">*</div>
+                    </div>
+                </div>
+            </div>
         </section>
-
-
     </main>
 
-    <footer></footer>
+    <footer>
+
+    </footer>
 
 
     <!-- Modal -->
-    <div class="modal fade" id="completedModal" tabindex="-1" aria-labelledby="completedModalLabel" aria-hidden="true">
+    <div class="modal fade" id="completedModal" tabindex="-1" aria-labelledby="completedModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-body">

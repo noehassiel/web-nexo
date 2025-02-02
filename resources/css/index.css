@@ -56,7 +56,7 @@ h2 {
 
 h3 {
     font-family: FK Screamer, sans-serif;
-    font-size: var(--fs-3xl);
+    font-size: var(--fs-3xl) !important;
     font-variation-settings: "wght" 600;
 }
 
@@ -381,10 +381,72 @@ nav .btn:hover {
     }
 }
 
+/*CTA*/
+.cta {
+    position: relative;
+    overflow: hidden;
+    height: 80vh;
+}
+
+.cta img {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cta .container-fluid {
+    height: 100%;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 1rem;
+}
+
+/*MARQUEE*/
+
+.wrapper {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0;
+    height: 5rem;
+    mix-blend-mode: difference;
+}
+
+.box {
+    position: absolute;
+    background: transparent;
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    padding: 10px;
+    font-family: PP Editorial New, sans-serif;
+}
+
+.boxes {
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .box {
+        font-size: 2rem;
+        width: 360px !important;
+    }
+}
+
 /*FOOTER*/
 footer {
     position: fixed;
-
+    height: 100vh;
+    background-color: var(--text);
 }
 
 .button {
